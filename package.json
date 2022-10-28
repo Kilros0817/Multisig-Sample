@@ -1,0 +1,23 @@
+{
+  "name": "multisig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@nomiclabs/hardhat-etherscan": "^3.1.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/hardhat-defender": "^1.8.1",
+    "@openzeppelin/hardhat-upgrades": "^1.21.0",
+    "hardhat": "^2.12.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.7.3",
+    "dotenv": "^16.0.3"
+  }
+}
